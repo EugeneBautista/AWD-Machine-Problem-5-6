@@ -1,0 +1,126 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-image: url('https://steamuserimages-a.akamaihd.net/ugc/1862800643587205256/4C9556F0E634AF7F82C97E197674ECA5D87AE634/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true');
+  background-size: cover;
+  padding-top: 17%;
+}
+
+
+.display-4{
+  text-align: left;
+  padding-left: 10%;
+  max-width: 700px;
+  justify-content: center;
+}
+
+p{
+  text-align: left;
+  padding-left: 10%;
+  max-width: 700px;
+  justify-content: center;
+  padding-bottom: 7%;
+}
+
+.card-body{
+  height: 270px;
+  max-width: 300px;
+  background-position-x: center;
+}
+
+.card{
+  background-image: url('https://i.pinimg.com/originals/27/ae/5f/27ae5f34f585523fc884c2d479731e16.gif');
+  background-size: cover;
+  background-position-x: center;
+  max-width: 300px;
+  max-height: 290px;
+  padding-bottom: 0%;
+}
+
+.btn{
+  width: 250px;
+  box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+#btn1{
+  border: 2px solid rgb(255,164,57);
+  background-color: rgb(255,164,57);
+  transition: 0.7s ease-in-out;
+}
+
+#btn1:hover{
+  opacity: 0%;
+  border: 5px solid rgb(255,123,57);
+}
+
+#changebg1{
+  border: 2px solid rgb(123,206,239);
+  background-color: rgb(123,206,239);
+  transition: 0.7s ease-out;
+}
+
+#changebg1:hover{
+  opacity: 0%;
+  border: 5px solid rgb(66,165,222);
+}
+
+#changebg2{
+  border: 2px solid rgb(148,181,57);
+  background-color: rgb(148,181,57);
+  transition: 0.7s ease-in-out;
+}
+
+#changebg2:hover{
+  opacity: 0%;
+  border: 5px solid rgb(90,156,90);
+}
+
+#changebg3{
+  border: 2px solid #408861;
+  background-color: #408861;
+  transition: 0.7s ease-in-out;
+}
+
+#changebg3:hover{
+  opacity: 0%;
+  border: 5px solid #CF6B76;
+}
+
+a{
+  text-align: right;
+  align-items: right;
+  justify-content: right;
+}
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+      font-size: 16px;
+  }
+}
+
+.card-deck{
+  min-width: none;
+  
+}
+
+.card-deck .card {
+  max-width: 250px;
+}
+
+.border-top { 
+  border-top: 1px solid #e5e5e5; 
+}
+
+.border-bottom { 
+  border-bottom: 1px solid #e5e5e5; 
+}  
+
+.box-shadow { 
+  box-shadow: 1 .25rem .75rem rgba(0, 0, 0, .05); 
+}
